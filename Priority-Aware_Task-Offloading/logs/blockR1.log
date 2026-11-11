@@ -1,0 +1,31 @@
+20 jobs to run (0 already done)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+[1/20] ('dueling_ddqn', 20, 1)  476s
+[2/20] ('dueling_ddqn', 20, 0)  476s
+[3/20] ('dueling_ddqn', 20, 2)  946s
+[4/20] ('dueling_ddqn', 20, 3)  950s
+[5/20] ('dueling_ddqn', 20, 4)  1425s
+[6/20] ('dueling_ddqn', 20, 5)  1429s
+[7/20] ('dueling_ddqn', 20, 6)  1904s
+[8/20] ('dueling_ddqn', 20, 7)  1907s
+[9/20] ('dueling_ddqn', 20, 9)  2388s
+[10/20] ('dueling_ddqn', 20, 8)  2390s
+[11/20] ('dueling_ddqn', 60, 0)  2864s
+[12/20] ('dueling_ddqn', 60, 1)  2868s
+[13/20] ('dueling_ddqn', 60, 2)  3336s
+[14/20] ('dueling_ddqn', 60, 3)  3343s
+[15/20] ('dueling_ddqn', 60, 4)  3816s
+[16/20] ('dueling_ddqn', 60, 5)  3823s
+[17/20] ('dueling_ddqn', 60, 6)  4290s
+[18/20] ('dueling_ddqn', 60, 7)  4300s
+[19/20] ('dueling_ddqn', 60, 8)  4760s
+[20/20] ('dueling_ddqn', 60, 9)  4767s
+                      energy_mean  viol_t1  viol_overall
+N_train arm                                             
+20      dueling_ddqn       0.0012   1.9475         0.100
+60      dueling_ddqn       0.0012   4.3112         2.925

@@ -1,0 +1,45 @@
+20 jobs (0 done)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+[1/20] (20, 1) 510s
+[2/20] (20, 0) 510s
+[3/20] (20, 3) 1043s
+[4/20] (20, 2) 1044s
+[5/20] (20, 4) 1555s
+[6/20] (20, 5) 1558s
+[7/20] (20, 6) 2064s
+[8/20] (20, 7) 2065s
+[9/20] (20, 9) 2568s
+[10/20] (20, 8) 2570s
+[11/20] (60, 0) 3073s
+[12/20] (60, 1) 3079s
+[13/20] (60, 2) 3584s
+[14/20] (60, 3) 3591s
+[15/20] (60, 4) 4099s
+[16/20] (60, 5) 4105s
+[17/20] (60, 6) 4608s
+[18/20] (60, 7) 4617s
+[19/20] (60, 8) 5120s
+[20/20] (60, 9) 5126s
+                              viol_t1  energy_mean  t1_override
+N_train test_env variant                                       
+20      combined shield_0.5   15.3945       0.0020       0.1626
+                 shield_0.8   16.2213       0.0020       0.1096
+                 t1_rule      17.7416       0.0020       0.6365
+                 unprotected  18.8526       0.0021       0.0000
+        default  shield_0.5    0.9227       0.0012       0.0966
+                 shield_0.8    1.2205       0.0012       0.0352
+                 t1_rule       1.9574       0.0012       0.5676
+                 unprotected   1.9475       0.0012       0.0000
+60      combined shield_0.5   25.1390       0.0020       0.2594
+                 shield_0.8   23.4015       0.0021       0.1884
+                 t1_rule      33.9069       0.0020       0.6480
+                 unprotected  28.6021       0.0021       0.0000
+        default  shield_0.5    2.1526       0.0012       0.1081
+                 shield_0.8    2.4740       0.0012       0.0537
+                 t1_rule       6.3187       0.0012       0.6249
+                 unprotected   4.3112       0.0012       0.0000

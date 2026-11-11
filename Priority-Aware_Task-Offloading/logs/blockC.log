@@ -1,0 +1,132 @@
+control-plane cost: {'ctrl_query_s': 0.0, 'flow_s': 0.0, 'ctrl_msg_bits': 0.0}
+20 jobs to run (0 already done)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+[1/20] ('device_local', 20, 1)  428s
+[2/20] ('device_local', 20, 0)  428s
+[3/20] ('device_local', 20, 2)  821s
+[4/20] ('device_local', 20, 3)  823s
+[5/20] ('device_local', 20, 4)  1228s
+[6/20] ('device_local', 20, 5)  1231s
+[7/20] ('device_local', 20, 6)  1631s
+[8/20] ('device_local', 20, 7)  1639s
+[9/20] ('device_local', 20, 8)  2040s
+[10/20] ('device_local', 20, 9)  2049s
+[11/20] ('device_local', 60, 0)  2442s
+[12/20] ('device_local', 60, 1)  2454s
+[13/20] ('device_local', 60, 2)  2851s
+[14/20] ('device_local', 60, 3)  2868s
+[15/20] ('device_local', 60, 4)  3251s
+[16/20] ('device_local', 60, 5)  3268s
+[17/20] ('device_local', 60, 6)  3647s
+[18/20] ('device_local', 60, 7)  3663s
+[19/20] ('device_local', 60, 8)  4038s
+[20/20] ('device_local', 60, 9)  4048s
+
+=== SUMMARY (means over seeds) ===
+  N          arm  n_seeds  energy_mean  time_mean  viol_overall  viol_t1  viol_t2  t1_viol_pct_ub95  eval_reward
+20 device_local       10       0.0014    40.5049          0.52   8.2433   0.7500           10.0469      -0.3692
+60 device_local       10       0.0013   794.2976          6.44  14.6551   0.8295           16.7115      -3.4624
+control-plane cost: {'ctrl_query_s': 0.002, 'flow_s': 0.005, 'ctrl_msg_bits': 4000.0}
+20 jobs to run (0 already done)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+[1/20] ('device_local', 20, 0)  397s
+[2/20] ('device_local', 20, 1)  398s
+[3/20] ('device_local', 20, 2)  785s
+[4/20] ('device_local', 20, 3)  790s
+[5/20] ('device_local', 20, 4)  1178s
+[6/20] ('device_local', 20, 5)  1180s
+[7/20] ('device_local', 20, 6)  1581s
+[8/20] ('device_local', 20, 7)  1584s
+[9/20] ('device_local', 20, 8)  2000s
+[10/20] ('device_local', 20, 9)  2003s
+[11/20] ('device_local', 60, 0)  2405s
+[12/20] ('device_local', 60, 1)  2410s
+[13/20] ('device_local', 60, 2)  2808s
+[14/20] ('device_local', 60, 3)  2818s
+[15/20] ('device_local', 60, 4)  3213s
+[16/20] ('device_local', 60, 5)  3225s
+[17/20] ('device_local', 60, 6)  3611s
+[18/20] ('device_local', 60, 7)  3625s
+[19/20] ('device_local', 60, 8)  4003s
+[20/20] ('device_local', 60, 9)  4013s
+
+=== SUMMARY (means over seeds) ===
+  N          arm  n_seeds  energy_mean  time_mean  viol_overall  viol_t1  viol_t2  t1_viol_pct_ub95  eval_reward
+20 device_local       10       0.0013    41.2239         0.540   9.3996   0.5131           11.3774      -0.3875
+60 device_local       10       0.0014   467.2794         2.235  26.4717   4.4531           30.1658      -1.3589
+control-plane cost: {'ctrl_query_s': 0.005, 'flow_s': 0.01, 'ctrl_msg_bits': 4000.0}
+20 jobs to run (0 already done)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+[1/20] ('device_local', 20, 0)  398s
+[2/20] ('device_local', 20, 1)  402s
+[3/20] ('device_local', 20, 2)  794s
+[4/20] ('device_local', 20, 3)  800s
+[5/20] ('device_local', 20, 4)  1194s
+[6/20] ('device_local', 20, 5)  1200s
+[7/20] ('device_local', 20, 6)  1587s
+[8/20] ('device_local', 20, 7)  1595s
+[9/20] ('device_local', 20, 8)  1983s
+[10/20] ('device_local', 20, 9)  1991s
+[11/20] ('device_local', 60, 0)  2374s
+[12/20] ('device_local', 60, 1)  2388s
+[13/20] ('device_local', 60, 2)  2772s
+[14/20] ('device_local', 60, 3)  2788s
+[15/20] ('device_local', 60, 4)  3166s
+[16/20] ('device_local', 60, 5)  3185s
+[17/20] ('device_local', 60, 6)  3560s
+[18/20] ('device_local', 60, 7)  3577s
+[19/20] ('device_local', 60, 8)  3946s
+[20/20] ('device_local', 60, 9)  3958s
+
+=== SUMMARY (means over seeds) ===
+  N          arm  n_seeds  energy_mean  time_mean  viol_overall  viol_t1  viol_t2  t1_viol_pct_ub95  eval_reward
+20 device_local       10       0.0014    60.2195         1.595  15.8130   5.2183           18.0204      -0.9561
+60 device_local       10       0.0014   593.1159         4.980  22.5631   3.2805           25.4739      -2.7417
+control-plane cost: {'ctrl_query_s': 0.01, 'flow_s': 0.02, 'ctrl_msg_bits': 4000.0}
+20 jobs to run (0 already done)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+/content/drive/MyDrive/IoMT_Offloading_Reproducibility_Package/code/agents_v2.py:97: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss)
+[1/20] ('device_local', 20, 0)  397s
+[2/20] ('device_local', 20, 1)  399s
+[3/20] ('device_local', 20, 3)  792s
+[4/20] ('device_local', 20, 2)  793s
+[5/20] ('device_local', 20, 5)  1189s
+[6/20] ('device_local', 20, 4)  1189s
+[7/20] ('device_local', 20, 7)  1591s
+[8/20] ('device_local', 20, 6)  1592s
+[9/20] ('device_local', 20, 8)  1986s
+[10/20] ('device_local', 20, 9)  1989s
+[11/20] ('device_local', 60, 0)  2375s
+[12/20] ('device_local', 60, 1)  2383s
+[13/20] ('device_local', 60, 2)  2778s
+[14/20] ('device_local', 60, 3)  2789s
+[15/20] ('device_local', 60, 4)  3181s
+[16/20] ('device_local', 60, 5)  3193s
+[17/20] ('device_local', 60, 6)  3580s
+[18/20] ('device_local', 60, 7)  3592s
+[19/20] ('device_local', 60, 8)  3998s
+[20/20] ('device_local', 60, 9)  4004s
+
+=== SUMMARY (means over seeds) ===
+  N          arm  n_seeds  energy_mean  time_mean  viol_overall  viol_t1  viol_t2  t1_viol_pct_ub95  eval_reward
+20 device_local       10       0.0017    59.8488          1.48  24.2537   1.9150           26.8583      -0.9115
+60 device_local       10       0.0017   650.3924          5.55  32.4864   9.1289           35.4531      -3.0612
