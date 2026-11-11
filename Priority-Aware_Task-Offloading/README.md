@@ -1,4 +1,4 @@
-# SDN-enabled_D3QN: code, raw outputs and results
+# Priority-Aware Task Offloading: code, raw outputs and results
 
 Companion repository for the journal paper **"Priority-Aware Task Offloading In The Internet of Medical Things Using Deep Reinforcement Learning"** (A. S. Seidu, J. O. Agyemang, K. Agyeman-Prempeh Agyekum, K. Opuni-Boachie Obour Agyekum, F. A. Acheampong, K. Adu-Boahen Opare; Kwame Nkrumah University of Science and Technology), submitted to *Intelligence-Based Medicine*. The experiments began as part of the first author's MPhil thesis (*SDN-Enabled Dueling Deep Q-Network Mechanism for Energy-Efficient Task Offloading in IoMT Applications*, KNUST); Sections 1-7 below keep the thesis numbering, and Sections 8-10 and the paper map in Section 5 cover the journal revision.
 
