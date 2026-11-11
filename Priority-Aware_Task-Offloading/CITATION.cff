@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "Priority-Aware_Task-Offloading: code and data for priority-aware task offloading in the Internet of Medical Things"
+type: software
+authors:
+  - {family-names: Seidu, given-names: Abdul Samed}
+  - {family-names: Agyemang, given-names: Justice Owusu}
+  - {family-names: Agyekum, given-names: Kwame Agyeman-Prempeh}
+  - {family-names: Agyekum, given-names: Kwame Opuni-Boachie Obour}
+  - {family-names: Acheampong, given-names: Francisca Adoma}
+  - {family-names: Opare, given-names: Kwasi Adu-Boahen}
+repository-code: "https://github.com/abdu-ls/Priority-Aware_Task-Offloading"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Priority-Aware Task Offloading In The Internet of Medical Things Using Deep Reinforcement Learning"
+  journal: "Intelligence-Based Medicine"
+  status: in-review

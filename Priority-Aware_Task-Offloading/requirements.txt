@@ -1,0 +1,8 @@
+# Analysis scripts (tested with the versions in parentheses; later versions should work)
+numpy>=2.1        # 2.5.3
+scipy>=1.16       # 1.18.1
+pandas>=2.2       # 3.0.5
+matplotlib>=3.8   # 3.11.2, figures only
+# Only needed to re-run the learned agents (CPU build is sufficient; each worker uses one thread)
+torch>=2.2
+# Python 3.10 or newer
